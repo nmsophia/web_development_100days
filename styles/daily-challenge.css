@@ -1,0 +1,37 @@
+body{
+    text-align: center;
+    background-color: rgb(233, 215, 207);
+}
+
+h1{
+    font-family: fira sans, sans-serif;
+    text-align: center;
+    color: rgb(83, 75, 75);
+}
+
+p{
+    font-family: fira sans, sans-serif;
+    text-align: center;
+    color: rgb(83, 75, 75);
+}
+
+a{
+    color:blueviolet;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+#todays-challenge{
+    color: brown;
+    font-weight: bold;
+    font-size: 52px;
+}
+
+img{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+}
