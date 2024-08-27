@@ -1,33 +1,45 @@
 body{
     background-color: rgb(242, 218, 242);
     text-align: center;
+    font-family: 'Fira Sans', sans-serif;
 }
 
 h1{
     font-family: 'Oswald', sans-serif;
+    font-size: 50px;
 }
 
 p{
-    font-family: 'Fira Sans', sans-serif;
     color: rgb(83, 75, 75)
+}
+
+#description {
+    margin-bottom: 36px;
 }
 
 a{
     font-family: 'Fira Sans', sans-serif;
-    color:blueviolet;
+    color: white;
     text-decoration: none;
+    padding: 12px 12px;
+    border: 1px solid rgb(167, 1, 78);
+    background-color: rgb(167, 1, 78);
 }
 
 a:hover{
+    background-color: rgb(180, 12, 90);
     text-decoration: underline;
 }
 
 ol{
     list-style: none;
-    color:rgb(244, 242, 93);
+    width: 500px;
+    margin: 36px auto 0 auto;
+    padding: 0;
 }
 li{
-    list-style: square;
-    list-style: none;
-    color:rgb(249, 42, 27)
+    padding: 16px;
+    margin: 32px;
+    background-color: rgb(223,136, 124);
+    border-radius: 6px;
 }
