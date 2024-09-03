@@ -6,13 +6,14 @@ body{
 h1{
     font-family: fira sans, sans-serif;
     text-align: center;
-    color: rgb(83, 75, 75);
+    color: black;
+    margin-top: 150px;
 }
 
 p{
     font-family: fira sans, sans-serif;
     text-align: center;
-    color: rgb(83, 75, 75);
+    color: black;
 }
 
 a{
@@ -25,7 +26,7 @@ a:hover{
 }
 
 #todays-challenge{
-    color: brown;
+    color: rgb(50, 48, 48);
     font-weight: bold;
     font-size: 52px;
 }
@@ -34,4 +35,16 @@ img{
     width: 200px;
     height: 200px;
     border-radius: 100px;
+    border: 2px solid black;
+}
+
+b{
+    color:rgb(86, 6, 6);
+}
+
+main{
+    border: 2px solid black;
+    margin: -102px auto 72px auto;
+    background-color: brown;
+    width: 800px;
 }
