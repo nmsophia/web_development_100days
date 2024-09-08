@@ -3,7 +3,11 @@ body{
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-style: normal;
-    text-align: center;
+}
+
+header {
+    text-align:center;
+    padding: 32px;
 }
 
 h1{
@@ -11,64 +15,73 @@ h1{
     color:blueviolet; 
 }
 
-img{
-    margin: 5px auto 50px auto;
+header img{
     width: 50%;
-    height: 50%;
 }
 
 main{
-    border-radius: 25px;
     background-color: blueviolet;
-    text-align: justify;
-    padding: 20px 50px 30px 50px;
+    padding: 32px;
+    width: 700px;
+    margin: 50px auto;
+    border-radius: 25px;
     color:antiquewhite;
-    margin-bottom: 50px;
     font-size: 15px;
 }
 
-h2{
-    margin:25px 5px 10px auto;
-}
-
-span{
-    padding: 2px;
-    border-radius: 3px;
-    background-color: yellow;
-    color:black
-}
-
 ul{
+    margin: 0;
     padding-left: 25px;
+    list-style: none;
 }
 
 li{
-  color: yellow;
-  display:grid;
-  border-left: 3px solid yellow;
-  margin-top: 15px;
-  padding-left: 5px;
+    margin: 15px 0px;
+    padding-left: 5px;
+    border-left: 3px solid transparent;
 }
 
-ul > p {
-    padding-left: 8px;
+.extra-important{
+  color: rgb (255, 237, 177);
+  border-color: rgb(247, 209, 85);
 }
 
-a:link{
-    padding: 15px 10px 15px 10px;
+.highlight{
+    font-weight: bold;
+}
+
+
+main a{
+    text-decoration: none;
+    padding: 2px;
+    border-radius: 3px;
+    background-color: rgb(255, 237, 177);
+    color: rgb(36, 3, 102);
+}
+
+main a:hover, a:active{
+    background-color: rgb(250, 201, 39);
+}
+
+footer{
+    text-align: center;
+}
+
+footer a:link{
+    padding: 15px 10px;
     border-radius: 5px;
-    background-color: orange;
+    background-color: rgb(250, 201, 39);
     text-decoration: none;
     color:black;
 }
 
-a:hover{
-    text-decoration: underline;
+footer a:hover{
     color: blue;
+    background-color: orange;
 }
 
-#footer1{
-    margin: 30px auto 25px auto;
+footer p{
+    margin: 30px auto;
     color: gray;
     font-size: 15px;
 }

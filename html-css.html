@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-    <header>
+    <head>
         <meta charset="UFT-8">
         <meta name="viewport" content="width=device-width, initial-scale-1"/>
         <link rel="stylesheet" href="html-css.css">
@@ -8,40 +8,40 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
         <title>HTML-CSS</title>
-    </header>
+    </head>
     <body>
-        <head>
+        <header>
             <h1>HTML & CSS Basics Summary</h1>
-            <img src="extra-files/html-css.png">
-        </head>
+            <img src="extra-files/html-css.png" alt="HTML and CSS logos">
+        </header>
 
         <main>
             <h2>HTML Summary</h2>
-            <p>HTML (Hypertext Markup Language) is used to define our page content, structure and meaning. You <b>don't</b> use it for styling purposes. Use CSS for that instead!</p>
+            <p>HTML (Hypertext Markup Language) is used to define our page content, structure and meaning. You <span class="highlight">don't</span> use it for styling purposes. Use CSS for that instead!</p>
             <ul>
-                <li>HTML uses "elements" to decribe (annotate) content</li>
-                <p>HTML elements typically have an opening tag, content and then a closing tag</p>
-                <li>You can also have void (empty) elements like images</li>
-                <li>You can also configure elements with attributes</li>
-                <p>There's a long list avaiable elements but you'll gain experiences over time, no worries</p>
+                <li class="extra-important">HTML uses "elements" to decribe (annotate) content</li>
+                <li>HTML elements typically have an opening tag, content and then a closing tag</li>
+                <li class="extra-important">You can also have void (empty) elements like images</li>
+                <li class="extra-important">You can also configure elements with attributes</li>
+                <li>There's a long list avaiable elements but you'll gain experiences over time, no worries</li>
             </ul>
-            <p>Learn more about all avaiable HTML elements on <span>the MDN HTML elements reference</span></p>
+            <p>Learn more about all avaiable HTML elements on <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element">the MDN HTML elements reference</a></p>
 
             <h2>CSS summary</h2>
             <p>CSS (Cascading Style Sheets) is used for styling your page content.</p>
             <p>Styles are assigned via property-value pairs</p>
             <p>You can assign styles via the 'style' attribute</p>
             <ul>
-                <li>To avoid code duplication, you typically use glbal style (e.g. via the "style" element) instead</li>
-                <p>Alternatively, you can work with external stylesheet files which you "link" to</p>
-                <li>When working with CSS, concepts like "inhetance", "specificity" and the "box model" should be understood.</li>
+                <li class="extra-important">To avoid code duplication, you typically use glbal style (e.g. via the "style" element) instead</li>
+                <li>Alternatively, you can work with external stylesheet files which you "link" to</li>
+                <li class="extra-important">When working with CSS, concepts like "inhetance", "specificity" and the "box model" should be understood.</li>
             </ul>
-            <p>Learn more about all available CSS properties and values on <span>the MDN CSS property reference</span></p>
+            <p>Learn more about all available CSS properties and values on <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Reference">the MDN CSS property reference</a></p>
         </main>
 
         <footer>
             <a href="extra-files/html-css-basics-summary.pdf" download="HTML-CSS basic summary" >Download PDF Summary</a>
-            <p id="footer1">(c) Academind GmbH</p>
+            <p>(c) Academind GmbH</p>
         </footer>
     </body>
 </html>
