@@ -24,6 +24,11 @@ main{
     padding: 20px 50px 30px 50px;
     color:antiquewhite;
     margin-bottom: 50px;
+    font-size: 15px;
+}
+
+h2{
+    margin:25px 5px 10px auto;
 }
 
 span{
@@ -39,12 +44,14 @@ ul{
 
 li{
   color: yellow;
-  display:grid;s
-
+  display:grid;
+  border-left: 3px solid yellow;
+  margin-top: 15px;
+  padding-left: 5px;
 }
 
-h2{
-    margin:25px 5px 10px auto;
+ul > p {
+    padding-left: 8px;
 }
 
 a:link{
@@ -61,7 +68,7 @@ a:hover{
 }
 
 #footer1{
-    margin: 25px auto 25px auto;
+    margin: 30px auto 25px auto;
     color: gray;
-    font-size: 50px;
+    font-size: 15px;
 }
