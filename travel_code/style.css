@@ -48,6 +48,11 @@
     background-color: rgb(255, 238, 0);
 }
 
+#highlight {
+    padding:24px;
+    background: linear-gradient(45deg, rgb(227,255,253), rgb(10, 155, 146));
+}
+
 #highlight h2{
     text-transform: uppercase;
     text-align: center;
@@ -88,3 +93,4 @@
 .destination strong{
     color: rgb(0,160,117)
 }
+
